@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment overflow</title>
+    <style>
+      .container{
+       border:2px solid red;
+       align-items: center;
+       width: 700px;
+       margin:auto;
+       margin-top: 20px;
+       padding: 20px;
+       height: 404px;
+
+      }
+      .box{
+       border:2px solid yellow;
+       
+       margin:12px 3px;
+       padding: 12px 3px;
+       float: left;
+       clear: both;
+      }
+      #box1{
+        
+      }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="box" id="box1"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla nemo esse amet illum, sequi culpa facilis consequatur dolores, quos voluptate dolorem quo mollitia omnis consectetur id rem autem nobis perspiciatis!</p></div>
+    <div class="box" id="box2"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla nemo esse amet illum, sequi culpa facilis consequatur dolores, quos voluptate dolorem quo mollitia omnis consectetur id rem autem nobis perspiciatis!</p></div>
+    <div class="box" id="box3"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla nemo esse amet illum, sequi culpa facilis consequatur dolores, quos voluptate dolorem quo mollitia omnis consectetur id rem autem nobis perspiciatis!</p></div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .akash::before{
+            content: '';
+            display:block;
+            border:2px solid red;
+            height: 10px;
+            width: 10px;
+            background-color: aqua;
+        }
+        .akash::after{
+            margin-top: 2px;
+            content:'';
+            display:block;
+            border:2px solid blue;
+            height: 10px;
+            width: 10px;
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <div class="akash">
+        <label aria-placeholder="bhol">Enter Nmae</label><br/>
+       <input type="text">
+        </div>
+</body>
+</html>
